@@ -91,7 +91,6 @@ const Home = function () {
               {message}
             </li>
           ))}
-        {/* //  <li>{todoItem}</li>  */}
       </ul>
     </div>
   );
