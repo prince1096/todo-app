@@ -45,11 +45,13 @@ const Home = function () {
   };
 
   return (
-    <div>
-      <h1>Todo app</h1>
+    <div className="container-div">
+      <h1 className="heading-main">Todo app</h1>
 
-      <div>
-        <label htmlFor="input-here">Write Below</label>
+      <div className="input-div">
+        <label htmlFor="input-here" className="input-label">
+          Write Below :
+        </label>
         <input
           type="text"
           name=""
@@ -59,12 +61,12 @@ const Home = function () {
           // onChange={(e) => setTodoItem(e.target.value)}
           onChange={handleTodo}
         />
-        <button type="button" onClick={handleAdd}>
+        <button type="button" className="input-button" onClick={handleAdd}>
           Add
         </button>
       </div>
 
-      <ul>
+      <ul className="input-ul">
         {items
           .filter(({ done }) => !done)
           .map(({ id, message, done }) => (
@@ -72,6 +74,7 @@ const Home = function () {
               key={id}
               onClick={() => handleToggle(id)}
               className={classNames("item", { done })}
+              id="input-li"
             >
               {/* {message}-{id} */}
               {message}

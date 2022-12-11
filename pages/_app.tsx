@@ -4,7 +4,7 @@ import type { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className="h-screen bg-gray-900">
+    <div className="component-app">
       <Component {...pageProps} />
     </div>
   );

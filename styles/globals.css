@@ -1,3 +1,45 @@
 .done {
   text-decoration: line-through;
 }
+
+.component-app {
+  background-color: darkcyan;
+}
+
+.container-div {
+  background-color: darkcyan;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.input-label {
+  display: block;
+  margin: 10px;
+  padding: 5px;
+}
+
+#input-here {
+  padding: 10px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 3px;
+}
+
+.input-button {
+  margin: 10px;
+  padding: 3px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* #input-li {
+  font-size: 14px;
+  margin: 3px;
+  padding: 3px;
+} */
+
+.input-ul {
+  font-size: 14px;
+  margin: 3px;
+  padding: 3px;
+}
